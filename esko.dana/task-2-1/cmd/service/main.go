@@ -11,6 +11,7 @@ func main() {
 
 	_, err := fmt.Scan(&numberOfDepartments)
 	if err != nil {
+
 		fmt.Println("Incorrect input")
 		return
 	}
